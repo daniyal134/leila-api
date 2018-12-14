@@ -2,6 +2,53 @@
 
 
 [[projects]]
+  digest = "1:cc0bbbf01f9f639555f9a9d4d5ff9c72da4c4c4bfe71f02fd318d37498270d80"
+  name = "github.com/99designs/gqlgen"
+  packages = [
+    "cmd",
+    "codegen",
+    "codegen/templates",
+    "complexity",
+    "graphql",
+    "graphql/introspection",
+    "handler",
+    "internal/gopath",
+    "internal/imports",
+  ]
+  pruneopts = "UT"
+  revision = "3a7f37c7e22a8fedce430c4d340ad5c1351198f4"
+  version = "v0.7.1"
+
+[[projects]]
+  digest = "1:cc306cae16c310ca360eaee3e563109e251832a3f6a13b26bf39cc6a43c7c9f6"
+  name = "github.com/agnivade/levenshtein"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "834b435c3df04fba060c8d74a40d849ab2c4a090"
+  version = "v1.0.1"
+
+[[projects]]
+  branch = "master"
+  digest = "1:36fe9527deed01d2a317617e59304eb2c4ce9f8a24115bcc5c2e37b3aee5bae4"
+  name = "github.com/gin-contrib/sse"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae"
+
+[[projects]]
+  digest = "1:d5083934eb25e45d17f72ffa86cae3814f4a9d6c073c4f16b64147169b245606"
+  name = "github.com/gin-gonic/gin"
+  packages = [
+    ".",
+    "binding",
+    "json",
+    "render",
+  ]
+  pruneopts = "UT"
+  revision = "b869fe1415e4b9eb52f247441830d502aece2d4d"
+  version = "v1.3.0"
+
+[[projects]]
   digest = "1:586ea76dbd0374d6fb649a91d70d652b7fe0ccffb8910a77468e7702e7901f3d"
   name = "github.com/go-stack/stack"
   packages = ["."]
@@ -10,12 +57,79 @@
   version = "v1.8.0"
 
 [[projects]]
+  digest = "1:97df918963298c287643883209a2c3f642e6593379f97ab400c2a2e219ab647d"
+  name = "github.com/golang/protobuf"
+  packages = ["proto"]
+  pruneopts = "UT"
+  revision = "aa810b61a9c79d51363740d207bb46cf8e620ed5"
+  version = "v1.2.0"
+
+[[projects]]
   branch = "master"
   digest = "1:4a0c6bb4805508a6287675fac876be2ac1182539ca8a32468d8128882e9d5009"
   name = "github.com/golang/snappy"
   packages = ["."]
   pruneopts = "UT"
   revision = "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
+
+[[projects]]
+  digest = "1:7b5c6e2eeaa9ae5907c391a91c132abfd5c9e8a784a341b5625e750c67e6825d"
+  name = "github.com/gorilla/websocket"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "66b9c49e59c6c48f0ffce28c2d8b8a5678502c6d"
+  version = "v1.4.0"
+
+[[projects]]
+  digest = "1:8ec8d88c248041a6df5f6574b87bc00e7e0b493881dad2e7ef47b11dc69093b5"
+  name = "github.com/hashicorp/golang-lru"
+  packages = [
+    ".",
+    "simplelru",
+  ]
+  pruneopts = "UT"
+  revision = "20f1fb78b0740ba8c3cb143a61e86ba5c8669768"
+  version = "v0.5.0"
+
+[[projects]]
+  digest = "1:3e551bbb3a7c0ab2a2bf4660e7fcad16db089fdcfbb44b0199e62838038623ea"
+  name = "github.com/json-iterator/go"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "1624edc4454b8682399def8740d46db5e4362ba4"
+  version = "v1.1.5"
+
+[[projects]]
+  digest = "1:edbef42561faa44c19129b68d1e109fbc1647f63239250391eadc8d0e7c9f669"
+  name = "github.com/kelseyhightower/envconfig"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "f611eb38b3875cc3bd991ca91c51d06446afa14c"
+  version = "v1.3.0"
+
+[[projects]]
+  digest = "1:0981502f9816113c9c8c4ac301583841855c8cf4da8c72f696b3ebedf6d0e4e5"
+  name = "github.com/mattn/go-isatty"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c"
+  version = "v0.0.4"
+
+[[projects]]
+  digest = "1:33422d238f147d247752996a26574ac48dcf472976eda7f5134015f06bf16563"
+  name = "github.com/modern-go/concurrent"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94"
+  version = "1.0.3"
+
+[[projects]]
+  digest = "1:e32bdbdb7c377a07a9a46378290059822efdce5c8d96fe71940d87cb4f918855"
+  name = "github.com/modern-go/reflect2"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "4b7aa43c6742a2c18fdef89dd197aaae7dac7ccd"
+  version = "1.0.1"
 
 [[projects]]
   digest = "1:820eeb72f78947f9b2e87bd99a57b5cc791c8fb47676a5c3824d408441ab1546"
@@ -57,6 +171,46 @@
   version = "v0.1.0"
 
 [[projects]]
+  digest = "1:40e195917a951a8bf867cd05de2a46aaf1806c50cf92eebf4c16f78cd196f747"
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
+  version = "v0.8.0"
+
+[[projects]]
+  digest = "1:03aa6e485e528acb119fb32901cf99582c380225fc7d5a02758e08b180cb56c3"
+  name = "github.com/ugorji/go"
+  packages = ["codec"]
+  pruneopts = "UT"
+  revision = "b4c50a2b199d93b13dc15e78929cfb23bfdf21ab"
+  version = "v1.1.1"
+
+[[projects]]
+  digest = "1:b24d38b282bacf9791408a080f606370efa3d364e4b5fd9ba0f7b87786d3b679"
+  name = "github.com/urfave/cli"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "cfb38830724cc34fedffe9a2a29fb54fa9169cd1"
+  version = "v1.20.0"
+
+[[projects]]
+  digest = "1:ed6a41de3eedd8d4868eea057837860453ebbe08c5e385fd50d4c24e5642ec18"
+  name = "github.com/vektah/gqlparser"
+  packages = [
+    ".",
+    "ast",
+    "gqlerror",
+    "lexer",
+    "parser",
+    "validator",
+    "validator/rules",
+  ]
+  pruneopts = "UT"
+  revision = "e805d08bb209b1accdea76bd2327811858d81985"
+  version = "v1.0.0"
+
+[[projects]]
   branch = "master"
   digest = "1:40fdfd6ab85ca32b6935853bbba35935dcb1d796c8135efd85947566c76e662e"
   name = "github.com/xdg/scram"
@@ -89,6 +243,14 @@
   revision = "42b317875d0fa942474b76e1b46a6060d720ae6e"
 
 [[projects]]
+  branch = "master"
+  digest = "1:418531991b3ea024fd1947c8fdd18019b3ce285025955fddc6b8e4cc4f9213fc"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  pruneopts = "UT"
+  revision = "7da8ea5c81829e397bdf930c5d8ba4b703616f33"
+
+[[projects]]
   digest = "1:8029e9743749d4be5bc9f7d42ea1659471767860f0cdc34d37c3111bd308a295"
   name = "golang.org/x/text"
   packages = [
@@ -103,9 +265,52 @@
   revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
   version = "v0.3.0"
 
+[[projects]]
+  branch = "master"
+  digest = "1:d9e353117da692eea5030b88167d54d51e77a5cbb515ff107cfd9b981ed06219"
+  name = "golang.org/x/tools"
+  packages = [
+    "go/ast/astutil",
+    "go/buildutil",
+    "go/internal/cgo",
+    "go/loader",
+    "imports",
+    "internal/fastwalk",
+    "internal/gopathwalk",
+  ]
+  pruneopts = "UT"
+  revision = "59cd96f77e7ec4d6e1fc7489f61915a82879680d"
+
+[[projects]]
+  digest = "1:cbc72c4c4886a918d6ab4b95e347ffe259846260f99ebdd8a198c2331cf2b2e9"
+  name = "gopkg.in/go-playground/validator.v8"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "5f1438d3fca68893a817e4a66806cea46a9e4ebf"
+  version = "v8.18.2"
+
+[[projects]]
+  digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
+  name = "gopkg.in/yaml.v2"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
+  version = "v2.2.2"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/mongodb/mongo-go-driver/mongo"]
+  input-imports = [
+    "github.com/99designs/gqlgen/cmd",
+    "github.com/99designs/gqlgen/graphql",
+    "github.com/99designs/gqlgen/graphql/introspection",
+    "github.com/99designs/gqlgen/handler",
+    "github.com/gin-gonic/gin",
+    "github.com/kelseyhightower/envconfig",
+    "github.com/mongodb/mongo-go-driver/bson",
+    "github.com/mongodb/mongo-go-driver/mongo",
+    "github.com/vektah/gqlparser",
+    "github.com/vektah/gqlparser/ast",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
