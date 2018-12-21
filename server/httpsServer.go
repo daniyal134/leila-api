@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/leilaApp/leila-api/configs"
 	"github.com/leilaApp/leila-api/routers"
 	"os"
 )
@@ -24,6 +25,7 @@ func getEnvPort() {
 
 func main() {
 
+	configs.StartDB()
 	router := routers.InitRoutes()
 	router.Run(":" + RUN_PORT)
 }
